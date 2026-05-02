@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import DinoClip from "./DinoClip";
 
 export default function About() {
   return (
@@ -50,6 +51,7 @@ export default function About() {
           </div>
         </motion.div>
       </div>
+      <DinoClip />
     </section>
   );
 }

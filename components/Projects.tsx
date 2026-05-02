@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ExternalLink, Code2 } from "lucide-react";
+import DinoClip from "./DinoClip";
 
 export default function Projects() {
   const projects = [
@@ -79,6 +80,7 @@ export default function Projects() {
           ))}
         </div>
       </div>
+      <DinoClip />
     </section>
   );
 }

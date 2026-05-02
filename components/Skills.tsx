@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Code2, Cpu, Network, Wrench } from "lucide-react";
+import DinoClip from "./DinoClip";
 
 export default function Skills() {
   const skillCategories = [
@@ -81,6 +82,7 @@ export default function Skills() {
           ))}
         </motion.div>
       </div>
+      <DinoClip />
     </section>
   );
 }

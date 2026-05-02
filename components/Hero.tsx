@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import DinoClip from "./DinoClip";
 
 export default function Hero() {
   return (
@@ -55,6 +56,9 @@ export default function Hero() {
             <a href="#contact" className="inline-flex items-center justify-center px-8 py-3 font-semibold text-white border border-white/20 rounded-full hover:bg-white/10 transition-colors">
               Contact Me <span>→</span>
             </a>
+            <a href="/CV.pdf" download="Mark_Lagdaan_CV.pdf" className="inline-flex items-center justify-center px-8 py-3 font-semibold text-white border border-neon-teal/50 rounded-full hover:bg-neon-teal/10 hover:border-neon-teal transition-all shadow-[0_0_15px_rgba(0,240,255,0.2)] hover:shadow-[0_0_20px_rgba(0,240,255,0.4)]">
+              Download CV <span>📄</span>
+            </a>
           </div>
         </motion.div>
       </div>
@@ -64,7 +68,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+        className="absolute bottom-24 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-10"
       >
         <span className="text-xs text-gray-500 uppercase tracking-widest">Scroll</span>
         <div className="w-[1px] h-12 bg-white/20 relative overflow-hidden">
@@ -75,6 +79,8 @@ export default function Hero() {
           />
         </div>
       </motion.div>
+
+      <DinoClip />
     </section>
   );
 }

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Mail, MapPin, Phone } from "lucide-react";
+import DinoClip from "./DinoClip";
 
 const FacebookIcon = ({ className }: { className?: string }) => (
   <svg className={className} fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -73,6 +74,7 @@ export default function Contact() {
       <div className="absolute bottom-6 left-0 w-full text-center text-gray-500 text-sm">
         <p>Built with Next.js & Tailwind CSS. Designed by Mark Lagdaan.</p>
       </div>
+      <DinoClip />
     </section>
   );
 }

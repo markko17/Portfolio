@@ -45,7 +45,7 @@ export default function Education() {
               >
                 {/* Timeline Dot */}
                 <div className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-black border-2 border-neon-teal box-glow"></div>
-                
+
                 <span className="text-neon-teal text-sm font-semibold tracking-wider uppercase mb-2 block">
                   {item.year}
                 </span>
