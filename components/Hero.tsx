@@ -41,11 +41,11 @@ export default function Hero() {
             Computer Engineering Student | Full-Stack Developer | IoT Systems Builder
           </h2>
           <p className="text-gray-400 text-base md:text-lg mb-10 leading-relaxed">
-            A detail-oriented Computer Engineering student specializing in full-stack development, 
-            embedded systems, and network engineering. Focused on building practical, real-world 
+            A detail-oriented Computer Engineering student specializing in full-stack development,
+            embedded systems, and network engineering. Focused on building practical, real-world
             systems that combine software, hardware, and automation.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="#projects" className="group relative inline-flex items-center justify-center px-8 py-3 font-semibold text-black bg-neon-teal rounded-full overflow-hidden transition-all hover:box-glow">
               <span className="relative z-10 flex items-center gap-2">
@@ -57,7 +57,7 @@ export default function Hero() {
               Contact Me <span>→</span>
             </a>
             <a href="/CV.pdf" download="Mark_Lagdaan_CV.pdf" className="inline-flex items-center justify-center px-8 py-3 font-semibold text-white border border-neon-teal/50 rounded-full hover:bg-neon-teal/10 hover:border-neon-teal transition-all shadow-[0_0_15px_rgba(0,240,255,0.2)] hover:shadow-[0_0_20px_rgba(0,240,255,0.4)]">
-              Download CV <span>📄</span>
+              Download CV <span></span>
             </a>
           </div>
         </motion.div>
